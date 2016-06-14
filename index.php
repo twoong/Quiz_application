@@ -137,7 +137,7 @@ if ($cur_qnumber == $num_total_question) {
         echo "<div id='choice'>";
         echo "<input type=radio name=question-" . ($cur_sub_question + $cur_level + 1) . "-answers id=question-" . ($cur_sub_question + $cur_level + 1) . "-answers-" . ($choice_idx + 1) . " value=" . ($choice_idx + 1) . " />";
         echo "<label for=question-" . ($cur_sub_question + $cur_level + 1) . "-answers-" . ($choice_idx + 1) . ">";
-        echo " " . $e​xercise[$cur_level][$rand_question[$cur_level][$cur_sub_question] - 1][$choice_idx] . "<br>";
+        echo $e​xercise[$cur_level][$rand_question[$cur_level][$cur_sub_question] - 1][$choice_idx] . "<br>";
     echo "</label>";
     echo "</div>";
 }

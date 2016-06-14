@@ -1,0 +1,91 @@
+/*
+     CSS-Tricks Example
+     by Chris Coyier
+     http://css-tricks.com
+*/
+
+*                   { margin: 0; padding: 0; }
+html,body{font-family:Verdana,sans-serif;font-size:20px;line-height:1.5}html{overflow-x:hidden}
+h1,h2,h3,h4,h5,h6,.tw-slim,.tw-wide{font-family:"Segoe UI",Arial,sans-serif}
+h1{font-size:26px}h2{font-size:24px}h3{font-size:24px}h4{font-size:20px}h5{font-size:18px}h6{font-size:16px}
+.tw-serif{font-family:"Times New Roman",Times,serif}
+h1{font-weight:400;margin:10px 15px}.tw-wide{letter-spacing:4px}
+h2{font-weight:400;margin:12px 0;border-bottom:2px solid #A6A6A6;padding: 12px}.tw-wide{letter-spacing:4px;}
+h3,h4,h5,h6{font-weight:400;margin:10px 0}.tw-wide{letter-spacing:4px}
+h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{font-weight:inherit}
+
+#page-wrap{ width: 500px; margin: 30px auto; }
+#choice{margin: 8px 0; padding-left: 12px;}
+#button{text-align:center;}
+
+.tw-container                 { padding : 0.01em 16px; }
+.tw-padding-jumbo         { padding: 16px 16px!important; }
+.tw-light-grey                 { color: #000!important; background-color: #f1f1f1!important; }
+.tw-padding-hor-16         { padding-top: 16px!important; padding-bottom: 16px!important; }
+.tw-large                       { font-size: 18px!important; }
+.tw-orange                    {background-color: #ff9800!important; }
+.tw-text-white                { color: #fff!important; }
+.tw-col,.tw-half,.tw-third,.tw-twothird,.tw-threequarter,.tw-quarter{float:left;width:100%}
+.tw-col.s6{width:49.99999%}
+
+#quiz input {
+    vertical-align: middle;
+}
+
+#quiz ol {
+   margin: 0 0 10px 0;
+}
+
+#quiz ol li {
+   margin: 0 0 20px 0;
+}
+
+#quiz ol li div {
+   padding: 4px 0;
+}
+
+#quiz h3 {
+   font-size: 17px; margin: 0 0 1px 0; color: #666;
+}
+
+#results {
+    font: 28px Georgia, Serif; margin-left: 16px;
+}
+
+#results1 {
+    font: 24px Verdana,sans-serif; margin-left: 16px; margin-right: 140px;
+}
+#results2 {
+    font: 24px Verdana,sans-serif; margin-left: 16px;
+}
+
+input[type=submit]{
+    clear: both;
+    border: 5px;
+    border-color: black;
+    width: 160px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align:center;
+    /*background: #4C7FEB;*/
+    background-color: #D5D5D5;
+    color: black;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    margin: 20px 20px;
+    -webkit-transition: color 0.2s,background-color 0.2s,box-shadow 0.2s,border 0.2s;
+    -moz-transition: color 0.2s,background-color 0.2s,box-shadow 0.2s,border 0.2s;
+    -o-transition: color 0.2s,background-color 0.2s,box-shadow 0.2s,border 0.2s;
+    transition: color 0.2s,background-color 0.2s,box-shadow 0.2s,border 0.2s;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+input[type=submit]:hover{
+    background: #EAEAEA;
+    box-shadow: none;
+}

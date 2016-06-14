@@ -40,7 +40,6 @@ $num_sub_sample = 3;        //레벨당 문제샘플수
 $num_sub_question = 1;      //레벨당 문제수
 $num_choice = 5;            //보기
 
-
 if (0) {
     $conn = mysql_connect("localhost", "inspo82", "lifestudy82");
 } else {

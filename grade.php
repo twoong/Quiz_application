@@ -89,9 +89,10 @@
         }
     }
 
-    echo "<div id='results'>$totalScore / 100 점입니다 </div>";
+    echo "<div id='results'>$totalScore / 100 점입니다. </div>";
     echo "</br>";
-    echo "<div id='results1'>이 테스트는 7월 출간 예정인 BIGVOCA 단어장을 기반으로 만들어졌습니다. 8000개의 표제어만 외워도 원어민이 쓰는 단어 빈도의 90%를 알게 됩니다. 단어만 제대로 외우면 영어는 반이상 정복됩니다. </br> 모두 화이팅! </div>";
+    echo "<div id='results1'>이 테스트는 7월 출간 예정인 BIGVOCA 단어장을 기반으로 만들어졌습니다.</div></br>";
+    echo "<div id='results2'>8000개의 표제어만 외워도 원어민이 쓰는 단어 빈도의 90%를 알게 됩니다. 단어만 제대로 외우면 영어는 반이상 정복됩니다. </br> 모두 화이팅! </div>";
 
     ?>
 
